@@ -203,6 +203,11 @@ label {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+.list__item:last-child{
+    margin-right: 0;
 }
 
 .list__item:hover{
@@ -407,6 +412,24 @@ label {
     }
 }
 
+@media screen and (max-width: 862px) {
+    .list{
+        flex-direction: column;
+    }
+
+    .list li{
+        margin-bottom: 10px;
+    }
+
+    .list li:last-child{
+        margin-bottom: 0;
+    }
+
+    .list__item{
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .header-info__text{
         font-size: 0.85rem;
@@ -456,6 +479,10 @@ label {
 
     .top-logo{
         margin-left: 20px;
+    }
+
+    .list li {
+        margin-bottom: 4px;
     }
 
     .list{
