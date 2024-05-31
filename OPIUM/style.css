@@ -496,8 +496,8 @@ label {
         font-size: 1rem;
     }
 
-    .header-logo__img{
-        max-width: 150px;
+    .top-logo img {
+        width: 150px;
     }
 
     .wrapper {
@@ -518,7 +518,7 @@ label {
 
     form {
         max-width: 150px;
-        margin-left: 0;
+        margin-left: 0px;
     }
 
     .header-info-top{
@@ -527,6 +527,7 @@ label {
 
     .top-logo{
         margin-left: 0px;
+        margin-right: 5px;
         margin-bottom: 25px;
     }
 
